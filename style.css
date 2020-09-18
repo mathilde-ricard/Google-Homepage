@@ -1,0 +1,191 @@
+body {
+ 	font-family: Roboto, sans-serif;
+ 	background-color: white;
+	flex-grow:1; /* 4 */
+}
+
+.topbar {
+ 	display: flex;
+ 	font-size: 13px;
+ 	font-family: Roboto, sans-serif;
+ 	justify-content: flex-end;
+ 	align-items: center;
+ 	height: 25px;
+ 	margin-top: 20px;
+ 	margin-right: 15px;
+}
+
+.gmail {
+	color: black;
+	text-decoration:none;
+	margin-right: 10px;
+}
+
+.images {
+	color: black;
+	text-decoration:none;
+	margin-right: 10px;
+}
+
+.menu {
+	width: 17px;
+	margin-right: 20px;
+}
+
+.signin {
+	text-decoration:none;
+	color: white;
+	text-align: center;
+	background-color: #4887ef; 
+ 	padding: 8px 8px;
+ 	border-radius: 3px; 
+ 	font-weight: bold;
+}
+
+.gmail:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.images:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.google {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	width: 270px	
+}
+
+.searchbar {
+	display: flex;
+	border: 1px solid #E6E6E6;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 30px;
+	max-width: 600px ;
+	height: 45px ;
+	margin: auto;
+	margin-top: 30px ;
+	flex-wrap: nowrap;
+}
+
+.searchbar:hover {
+	box-shadow: 2px 2px 4px 3px #E6E6E6;
+}
+
+.loupe {
+	width: 20px;
+	margin-left: 7px;
+}
+
+.search {
+	width: 500px;
+	height: 40px;
+	border: none;
+	font-size: 17px;
+}
+
+.search:focus {
+  border-color: transparent;
+}
+
+.vocal {
+	width: 25px;
+	margin-right: 10px;
+}
+
+
+.buttons {
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	margin: auto;
+	max-width: 260px;
+	height: 25px;
+	margin-top: 30px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.googlesearch {
+	background-color: #F2F2F2;
+	padding: 0px 12px;
+ 	border-radius: 5px;
+}
+
+.lucky {
+	background-color: #F2F2F2;
+	padding: 0px 12px;
+ 	border-radius: 5px;
+}
+
+.googlesearch:hover {
+	color: black;
+	border: 1px solid #CCCCCC;
+}
+
+.lucky:hover {
+	color: black;
+	border: 1px solid #CCCCCC;
+}
+
+.bottombar {
+	display: flex;
+	flex-direction: column;
+	background-color: #F2F2F2;
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	right:0px;
+	border-top: 1px solid #E6E6E6;
+	flex-wrap: wrap;
+}
+
+.france {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	color: #808080;
+	font-size: 15px;
+	margin-left: 30px;
+
+}
+
+.bbbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #E6E6E6;
+	height: 40px;
+	font-size: 15px;
+	flex-wrap: wrap;
+}
+
+.left {
+	display: flex;
+}
+
+.right {
+	display: flex;
+}
+
+.advertising {
+	margin-left: 30px;
+}
+
+.advertising, .business, .about, .how, .consumer, .privacy, .terms, .settings {
+	display: flex;
+	color: #666666;
+	text-decoration:none;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+.advertising:hover, .business:hover, .about:hover, .how:hover, .consumer:hover, .privacy:hover, .terms:hover, .settings:hover {
+	text-decoration: underline;
+	color: #666666;
+}
